@@ -1,6 +1,6 @@
 import React from 'react';
 import { Panel, Table } from 'react-bootstrap';
-import Octicon, {LogoGithub} from '@githubprimer/octicons-react'
+import { tableStyle } from './skills'
 
 const AboutMe = () => {
   return (
@@ -10,7 +10,7 @@ const AboutMe = () => {
           <Panel.Title componentClass="h3">About me</Panel.Title>
         </Panel.Heading>
         <Panel.Body>
-          <Table striped bordered condensed hover>
+          <Table striped bordered condensed hover style={tableStyle}>
            <thead>
              <tr>
               <td>略歴</td>
@@ -33,7 +33,7 @@ const AboutMe = () => {
               <td colSpan="2">
                 GitHub: <a href="https://github.com/astatsuya" target="_blank" rel="noopener noreferrer">https://github.com/astatsuya</a>
                 <br />
-                Medium(学習記録): <a href="https://medium.com/@astatsuya" target="_blank" rel="noopener noreferrer">https://medium.com/@astatsuya</a>
+                Medium (学習記録): <a href="https://medium.com/@astatsuya" target="_blank" rel="noopener noreferrer">https://medium.com/@astatsuya</a>
                 <br />
                 Twitter: <a href="https://twitter.com/astatsuya1" target="_blank" rel="noopener noreferrer">https://twitter.com/astatsuya1</a>
                 <br />
@@ -48,39 +48,5 @@ const AboutMe = () => {
     </div>
   );
 }
-
-//
-//
-// class Skills extends React.Component {
-//   render() {
-//     return (
-//       <div className="Main">
-//         <Panel>
-//           <Panel.Heading>
-//             <Panel.Title componentClass="h3">Skills</Panel.Title>
-//           </Panel.Heading>
-//           <Panel.Body>
-//             <Table striped bordered condensed hover>
-//              <thead>
-//                <tr>
-//                 <td>Language</td>
-//                 <td colSpan="2">JavaScript, HTML5, CSS3</td>
-//                </tr>
-//                <tr>
-//                 <td>Frameworks</td>
-//                 <td colSpan="2">React</td>
-//                </tr>
-//                <tr>
-//                 <td>Others</td>
-//                 <td colSpan="2">Redux</td>
-//                </tr>
-//              </thead>
-//             </Table>
-//           </Panel.Body>
-//         </Panel>
-//       </div>
-//     );
-//   }
-// }
 
 export default AboutMe;

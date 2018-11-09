@@ -7,23 +7,23 @@ class Footer extends React.Component {
     return (
       <div className="Footer">
         <Navbar>
-          <Nav>
-            <NavItem eventKey={9} href="https://goo.gl/forms/dFk8SH5G4sPczJBf2" target="_blank" rel="noopener noreferrer">
-            <p>Copyright 2018 Tatsuya Asami </p>
-            </NavItem>
-            <NavItem eventKey={10} href="https://github.com/astatsuya" target="_blank" rel="noopener noreferrer" >
-            <SocialIcon network="github" style={{ height: 25, width: 25 }} />
-            </NavItem>
-            <NavItem eventKey={11} href="https://medium.com/@astatsuya" target="_blank" rel="noopener noreferrer">
-            <SocialIcon network="medium" style={{ height: 25, width: 25 }} />
-            </NavItem>
-            <NavItem eventKey={12} href="https://twitter.com/astatsuya1" target="_blank" rel="noopener noreferrer">
-            <SocialIcon network="twitter" style={{ height: 25, width: 25 }} />
-            </NavItem>
-            <NavItem eventKey={13} href="https://goo.gl/forms/dFk8SH5G4sPczJBf2" target="_blank" rel="noopener noreferrer">
-            <SocialIcon network="email" style={{ height: 25, width: 25 }} />
-            </NavItem>
-          </Nav>
+            <Navbar.Toggle />
+          <Navbar.Collapse>
+            <Nav>
+              <NavItem eventKey={1} href="https://github.com/astatsuya" target="_blank" rel="noopener noreferrer" >
+                <SocialIcon network="github" style={{ height: 25, width: 25 }} />
+              </NavItem>
+              <NavItem eventKey={2} href="https://medium.com/@astatsuya" target="_blank" rel="noopener noreferrer">
+                <SocialIcon network="medium" style={{ height: 25, width: 25 }} />
+              </NavItem>
+              <NavItem eventKey={3} href="https://twitter.com/astatsuya1" target="_blank" rel="noopener noreferrer">
+                <SocialIcon network="twitter" style={{ height: 25, width: 25 }} />
+              </NavItem>
+              <NavItem eventKey={9} >
+              <p>Copyright 2018 Tatsuya Asami </p>
+              </NavItem>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
       </div>
     );

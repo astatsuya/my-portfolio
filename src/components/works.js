@@ -1,5 +1,6 @@
 import React from 'react';
 import { Panel, Table } from 'react-bootstrap';
+import { tableStyle } from './skills'
 // import transferimg '../images/transferimg.png';
 
 const Works = () => {
@@ -10,39 +11,42 @@ const Works = () => {
           <Panel.Title componentClass="h3">Works</Panel.Title>
         </Panel.Heading>
         <Panel.Body>
-          <Table striped bordered condensed hover>
+          <Table striped bordered condensed hover style={tableStyle}>
            <thead>
              <tr>
-              <td>部署異動の傾向を調べるアプリ</td>
-              <td colSpan="2">React, Readux, React-Router</td>
+              <td colSpan="1">部署異動の傾向を調べるアプリ</td>
+              <td colSpan="1">React, Readux, React-Router</td>
              </tr>
              <tr>
-              <td colSpan="4">
+              <td colSpan="2">
               <a href="https://astatsuya.github.io/transfer/" target="_blank" rel="noopener noreferrer">
               <img src="../images/transferimg.png" alt="" width="50" length="50" /> a
               </a></td>
              </tr>
            </thead>
           </Table>
-          <Table striped bordered condensed hover>
+          <Table striped bordered condensed hover style={tableStyle}>
            <thead>
              <tr>
-              <td>パフォーマンスの結果と確率を記録するアプリ</td>
-              <td colSpan="2">React</td>
+              <td colSpan="1">部署異動の傾向を調べるアプリ</td>
+              <td colSpan="1">React, Readux, React-Router</td>
              </tr>
              <tr>
-              <td colSpan="4">ここにURLと画像</td>
+              <td colSpan="2">
+              <a href="https://astatsuya.github.io/transfer/" target="_blank" rel="noopener noreferrer">
+              <img src="../images/transferimg.png" alt="" width="50" length="50" /> a
+              </a></td>
              </tr>
            </thead>
           </Table>
-          <Table striped bordered condensed hover>
+          <Table striped bordered condensed hover style={tableStyle}>
            <thead>
              <tr>
-              <td>バレーボールの得点カウントアプリ</td>
-              <td colSpan="2">JavaScript, HTML5, CSS</td>
+              <td colSpan="1">バレーボールの得点カウントアプリ</td>
+              <td colSpan="1">JavaScript, HTML5, CSS</td>
              </tr>
              <tr>
-              <td colSpan="4">ここにURLと画像</td>
+              <td colSpan="2">ここにURLと画像</td>
              </tr>
            </thead>
           </Table>
