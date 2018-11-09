@@ -9,15 +9,15 @@ class Headder extends React.Component {
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#home">Top</a>
+              <a href="#home">Footer</a>
             </Navbar.Brand>
           </Navbar.Header>
           <Nav>
             <NavItem eventKey={1} href="#">
-              About me
+              Link
             </NavItem>
             <NavItem eventKey={2} href="#">
-              Works
+              Link
             </NavItem>
             <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
               <MenuItem eventKey={3.1}>Action</MenuItem>
