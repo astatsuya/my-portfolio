@@ -1,5 +1,5 @@
 import React  from 'react';
-import './App.css';
+import { Row, Col } from 'react-bootstrap';
 import Headder from './components/headder';
 import Main from './components/main';
 import Footer from './components/footer';
@@ -7,11 +7,22 @@ import Footer from './components/footer';
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <Headder />
-        <Main />
-        App
-        <Footer />
+      <div class="container" >
+        <Row className="show-grid">
+          <Col xs={12} md={9} >
+            <Headder />
+          </Col>
+        </Row>
+        <Row className="show-grid">
+          <Col xs={12} md={9}>
+            <Main />
+          </Col>
+        </Row>
+        <Row className="show-grid">
+          <Col xs={12} md={9}>
+            <Footer />
+          </Col>
+        </Row>
       </div>
     );
   }

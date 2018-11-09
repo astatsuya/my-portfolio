@@ -1,5 +1,6 @@
 import React from 'react';
 import { Panel, Table } from 'react-bootstrap';
+import Octicon, {LogoGithub} from '@githubprimer/octicons-react'
 
 const AboutMe = () => {
   return (
@@ -35,6 +36,8 @@ const AboutMe = () => {
                 Medium(学習記録): <a href="https://medium.com/@astatsuya" target="_blank" rel="noopener noreferrer">https://medium.com/@astatsuya</a>
                 <br />
                 Twitter: <a href="https://twitter.com/astatsuya1" target="_blank" rel="noopener noreferrer">https://twitter.com/astatsuya1</a>
+                <br />
+                E-mail: <a href="https://goo.gl/forms/dFk8SH5G4sPczJBf2" target="_blank" rel="noopener noreferrer">こちらのフォーム</a>からお願いします。
                 <br />
               </td>
              </tr>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Panel, Table } from 'react-bootstrap';
+// import transferimg '../images/transferimg.png';
 
 const Works = () => {
   return (
@@ -16,7 +17,10 @@ const Works = () => {
               <td colSpan="2">React, Readux, React-Router</td>
              </tr>
              <tr>
-              <td colSpan="4">ここにURLと画像</td>
+              <td colSpan="4">
+              <a href="https://astatsuya.github.io/transfer/" target="_blank" rel="noopener noreferrer">
+              <img src="../images/transferimg.png" alt="" width="50" length="50" /> a
+              </a></td>
              </tr>
            </thead>
           </Table>

@@ -1,31 +1,28 @@
 import React from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { SocialIcon } from 'react-social-icons';
 
-
-class Headder extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
-      <div className="Headder">
+      <div className="Footer">
         <Navbar>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <a href="#home">Footer</a>
-            </Navbar.Brand>
-          </Navbar.Header>
           <Nav>
-            <NavItem eventKey={1} href="#">
-              Link
+            <NavItem eventKey={9} href="https://goo.gl/forms/dFk8SH5G4sPczJBf2" target="_blank" rel="noopener noreferrer">
+            <p>Copyright 2018 Tatsuya Asami </p>
             </NavItem>
-            <NavItem eventKey={2} href="#">
-              Link
+            <NavItem eventKey={10} href="https://github.com/astatsuya" target="_blank" rel="noopener noreferrer" >
+            <SocialIcon network="github" style={{ height: 25, width: 25 }} />
             </NavItem>
-            <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Action</MenuItem>
-              <MenuItem eventKey={3.2}>Another action</MenuItem>
-              <MenuItem eventKey={3.3}>Something else here</MenuItem>
-              <MenuItem divider />
-              <MenuItem eventKey={3.4}>Separated link</MenuItem>
-            </NavDropdown>
+            <NavItem eventKey={11} href="https://medium.com/@astatsuya" target="_blank" rel="noopener noreferrer">
+            <SocialIcon network="medium" style={{ height: 25, width: 25 }} />
+            </NavItem>
+            <NavItem eventKey={12} href="https://twitter.com/astatsuya1" target="_blank" rel="noopener noreferrer">
+            <SocialIcon network="twitter" style={{ height: 25, width: 25 }} />
+            </NavItem>
+            <NavItem eventKey={13} href="https://goo.gl/forms/dFk8SH5G4sPczJBf2" target="_blank" rel="noopener noreferrer">
+            <SocialIcon network="email" style={{ height: 25, width: 25 }} />
+            </NavItem>
           </Nav>
         </Navbar>
       </div>
@@ -33,4 +30,4 @@ class Headder extends React.Component {
   }
 }
 
-export default Headder;
+export default Footer;
