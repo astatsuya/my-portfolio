@@ -24,7 +24,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "react-social-icons": "^3.0.0"
-  }
+  "devDependencies": {}
 }
