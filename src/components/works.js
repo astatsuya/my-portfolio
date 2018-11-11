@@ -17,8 +17,8 @@ const Works = () => {
             <p>性別、年齢、役職など指定した条件から、異動までの平均年数と異動先を検索する。</p>
             <p>React, Redux, React-Routerを使用。</p>
           </Col>
-          <Col xs={12} md={6}>
-            <Image src="images/transferimg.png" alt="" responsive thumbnail />
+          <Col xs={12} md={6} style={{maxWidth: 900}}>
+            <Image src="images/transfer.png" alt="" responsive thumbnail />
           </Col>
         </Row>
       </Panel.Body>
@@ -32,7 +32,7 @@ const Works = () => {
             <p>スポーツ等のパフォーマンスを4段階で記録できる。</p>
             <p>Reactを使用。</p>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} style={{maxWidth: 900}}>
             <Image src="images/Scout.png" alt="" responsive thumbnail />
           </Col>
         </Row>
@@ -47,7 +47,7 @@ const Works = () => {
             <p>こちらのサイト</p>
             <p>React, React-BootStrapを使用。</p>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} style={{maxWidth: 900}}>
             <Image src="images/Portfolio.png" alt="" responsive thumbnail />
           </Col>
         </Row>
@@ -62,7 +62,7 @@ const Works = () => {
             <p>デュースは2点差になるまで継続、3セット先取、5セット目は15点マッチといった公式ルールを適用。</p>
             <p>JavaScript, HTML5, CSS3を使用。</p>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} style={{maxWidth: 900}}>
             <Image src="images/Scoreboard.png" alt="" responsive thumbnail />
           </Col>
         </Row>
