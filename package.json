@@ -4,7 +4,6 @@
   "homepage": "https://github.com/astatsuya/portfolio-astatsuya/",
   "private": true,
   "dependencies": {
-    "@githubprimer/octicons-react": "^8.1.0",
     "gh-pages": "^2.0.1",
     "react": "^16.6.1",
     "react-bootstrap": "^0.32.4",
