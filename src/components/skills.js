@@ -6,8 +6,7 @@ export const tableStyle = {maxWidth: 500, margin: 'auto'};
 class Skills extends React.Component {
   render() {
     return (
-      <div className="Main">
-        <Panel>
+        <Panel className="Skills">
           <Panel.Heading>
             <Panel.Title componentClass="h3">Skills</Panel.Title>
           </Panel.Heading>
@@ -16,21 +15,20 @@ class Skills extends React.Component {
              <thead>
                <tr>
                 <td>Language</td>
-                <td colSpan="2">JavaScript, HTML5, CSS3</td>
+                <td colSpan="1">JavaScript, HTML5, CSS3</td>
                </tr>
                <tr>
                 <td>Frameworks</td>
-                <td colSpan="2">React</td>
+                <td colSpan="1">React</td>
                </tr>
                <tr>
                 <td>Others</td>
-                <td colSpan="2">Redux</td>
+                <td colSpan="1">Redux</td>
                </tr>
              </thead>
             </Table>
           </Panel.Body>
         </Panel>
-      </div>
     );
   }
 }
