@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/portfolio-astatsuya/precache-manifest.9ba4bafd2cac32796e6c9657eb7f4144.js"
+  "/portfolio-astatsuya/precache-manifest.a9e9004c9a5a5083dde1a365071eaa4e.js"
 );
 
 workbox.clientsClaim();
