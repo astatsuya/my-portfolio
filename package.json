@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/astatsuya/portfolio-astatsuya/",
+  "homepage": "https://astatsuya.github.io/portfolio-astatsuya/",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
