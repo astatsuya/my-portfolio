@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/astatsuya/portfolio-astatsuya/precache-manifest.78b05646fb52def1ee847ebd39c7a197.js"
+  "/portfolio-astatsuya/precache-manifest.3be0db9eb925d58e61993af474eb83b0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/astatsuya/portfolio-astatsuya/index.html", {
+workbox.routing.registerNavigationRoute("/portfolio-astatsuya/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
