@@ -18,7 +18,7 @@ const Works = () => {
             <p>React, Redux, React-Routerを使用。</p>
           </Col>
           <Col xs={12} md={6}>
-            <Image src="../../images/transferimg.png" alt="" responsive thumbnail />
+            <Image src="images/transferimg.png" alt="" responsive thumbnail />
           </Col>
         </Row>
       </Panel.Body>
@@ -33,7 +33,7 @@ const Works = () => {
             <p>Reactを使用。</p>
           </Col>
           <Col xs={12} md={6}>
-            <Image src="../../images/Scout.png" alt="" responsive thumbnail />
+            <Image src="images/Scout.png" alt="" responsive thumbnail />
           </Col>
         </Row>
       </Panel.Body>
@@ -48,7 +48,7 @@ const Works = () => {
             <p>React, React-BootStrapを使用。</p>
           </Col>
           <Col xs={12} md={6}>
-            <Image src="../../images/Portfolio.png" alt="" responsive thumbnail />
+            <Image src="images/Portfolio.png" alt="" responsive thumbnail />
           </Col>
         </Row>
       </Panel.Body>
@@ -63,7 +63,7 @@ const Works = () => {
             <p>JavaScript, HTML5, CSS3を使用。</p>
           </Col>
           <Col xs={12} md={6}>
-            <Image src="../../images/Scoreboard.png" alt="" responsive thumbnail />
+            <Image src="images/Scoreboard.png" alt="" responsive thumbnail />
           </Col>
         </Row>
       </Panel.Body>
