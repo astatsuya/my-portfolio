@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <Panel className="Aboutme">
       <Panel.Heading>
-        <Panel.Title componentClass="h3">About me</Panel.Title>
+        <Panel.Title componentClass="h3">About me, Contacts</Panel.Title>
       </Panel.Heading>
       <Panel.Body>
         <Table striped bordered condensed hover style={tableStyle}>
@@ -18,14 +18,14 @@ const AboutMe = () => {
            <tr>
             <td>職歴</td>
             <td colSpan="2">
-              弱電メーカーで建設施工プロジェクトマネージャー3年
+              都内の弱電メーカーで建設施工プロジェクト管理3年
               <br />
-              マレーシアにて海外法人営業2年
+              マレーシアの梱包材メーカー、商社で海外法人営業2年
             </td>
            </tr>
            <tr>
             <td>語学</td>
-            <td colSpan="2">海外在住計4年, TOEIC850, TOEIC SW 300</td>
+            <td colSpan="2">TOEIC850, TOEIC SW 300, 海外在住計約4年</td>
            </tr>
            <tr>
             <td>その他</td>
