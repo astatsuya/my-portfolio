@@ -23,7 +23,7 @@ class Skills extends React.Component {
                </tr>
                <tr>
                 <td>Others</td>
-                <td colSpan="1">Redux, Git</td>
+                <td colSpan="1">Redux, Git, Jest, enzyme, selenium, webdriverIO</td>
                </tr>
              </thead>
             </Table>
