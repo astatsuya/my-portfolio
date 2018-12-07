@@ -25,6 +25,21 @@ const Works = () => {
       <Panel.Body>
         <Row>
           <Col xs={12} md={6}>
+            <a href="https://astatsuya.github.io/three360/" target="_blank" rel="noopener noreferrer">
+              <h4>ドラッグ、ジャイロセンサーで視点操作する360度画像</h4>
+            </a>
+            <br />
+            <p>360度写真をAndroid, iOSではジャイロセンサー、その他デバイスではドラッグで視点操作できる。</p>
+            <p>JavaScript, three.jsを使用。</p>
+          </Col>
+          <Col xs={12} md={6} style={{maxWidth: 900}}>
+            <Image src="images/360.png" alt="" responsive thumbnail />
+          </Col>
+        </Row>
+      </Panel.Body>
+      <Panel.Body>
+        <Row>
+          <Col xs={12} md={6}>
             <a href="https://astatsuya.github.io/scout/" target="_blank" rel="noopener noreferrer">
               <h4>パフォーマンスの記録、確率を手軽にカウントするアプリ</h4>
             </a>
