@@ -16,7 +16,7 @@ const Works = () => {
             <br />
             <p>性別、年齢、役職など指定した条件から、異動までの平均年数と異動先を検索する。</p>
             <p>React, Redux, React-Routerを使用。</p>
-            <p>Github:
+            <p>GitHub:
               <a href="https://github.com/astatsuya/transfer" target="_blank" rel="noopener noreferrer">https://github.com/astatsuya/transfer
               </a>
             </p>
@@ -35,7 +35,7 @@ const Works = () => {
             <br />
             <p>360度写真をAndroid, iOSではジャイロセンサー、その他デバイスではドラッグで視点操作できる。</p>
             <p>JavaScript, three.jsを使用。</p>
-            <p>Github:
+            <p>GitHub:
               <a href="https://github.com/astatsuya/three360" target="_blank" rel="noopener noreferrer">https://github.com/astatsuya/three360
               </a>
             </p>
@@ -54,7 +54,7 @@ const Works = () => {
             <br />
             <p>スポーツ等のパフォーマンスを4段階で記録できる。</p>
             <p>Reactを使用。</p>
-            <p>Github:
+            <p>GitHub:
               <a href="https://github.com/astatsuya/scout" target="_blank" rel="noopener noreferrer">https://github.com/astatsuya/scout
               </a>
             </p>
@@ -73,7 +73,7 @@ const Works = () => {
             <br />
             <p>こちらのサイト</p>
             <p>React, React-BootStrapを使用。</p>
-            <p>Github:
+            <p>GitHub:
               <a href="https://github.com/astatsuya/portfolio-astatsuya" target="_blank" rel="noopener noreferrer">https://github.com/astatsuya/portfolio-astatsuya
               </a>
             </p>
@@ -92,7 +92,7 @@ const Works = () => {
             <br />
             <p>デュースは2点差になるまで継続、3セット先取、5セット目は15点マッチといった公式ルールを適用。</p>
             <p>JavaScript, HTML5, CSS3を使用。</p>
-            <p>Github:
+            <p>GitHub:
               <a href="https://github.com/astatsuya/scoreboard" target="_blank" rel="noopener noreferrer">https://github.com/astatsuya/scoreboard
               </a>
             </p>
