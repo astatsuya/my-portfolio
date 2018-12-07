@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/portfolio-astatsuya/static/js/runtime~main.0435a205.js"
   },
   {
-    "revision": "9969b281adffeca5ad8a",
-    "url": "/portfolio-astatsuya/static/js/main.9969b281.chunk.js"
+    "revision": "6c241eed64f4d366e53b",
+    "url": "/portfolio-astatsuya/static/js/main.6c241eed.chunk.js"
   },
   {
     "revision": "dd5452b09a4b75d9e63e",
     "url": "/portfolio-astatsuya/static/js/1.dd5452b0.chunk.js"
   },
   {
-    "revision": "f9c48da6965ece8aecd625361b8965e6",
+    "revision": "fd032b16179a3b2662c9371d3f136ee0",
     "url": "/portfolio-astatsuya/index.html"
   }
 ];
