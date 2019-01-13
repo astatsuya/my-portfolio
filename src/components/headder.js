@@ -7,7 +7,7 @@ class Headder extends React.Component {
       <Navbar collapseOnSelect fluid>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">The portfolio of Tatsuya Asami</a>
+            <a href="#brand">My Portfolio</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
